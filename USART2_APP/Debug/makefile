@@ -59,8 +59,8 @@ all: main-build
 main-build: USART2.elf secondary-outputs
 
 # Tool invocations
-USART2.elf USART2.map: $(OBJS) $(USER_OBJS) D:\My\ Career\My\ Embedded\stmf32f401x_Drivers\03\ APP\USART2_APP\STM32F401CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "USART2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\My Career\My Embedded\stmf32f401x_Drivers\03 APP\USART2_APP\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USART2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+USART2.elf USART2.map: $(OBJS) $(USER_OBJS) D:\Career\Embedded\stmf32f401x_Drivers\03\ APP\USART2_APP\STM32F401CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "USART2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Career\Embedded\stmf32f401x_Drivers\03 APP\USART2_APP\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USART2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
