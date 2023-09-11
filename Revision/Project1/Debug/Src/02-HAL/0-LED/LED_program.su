@@ -1,0 +1,2 @@
+../Src/02-HAL/0-LED/LED_program.c:17:6:LED_Status	16	static
+../Src/02-HAL/0-LED/LED_program.c:23:6:LED_Toggle	16	static

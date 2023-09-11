@@ -1,0 +1,12 @@
+../Src/01-MCAL/06-USART/USART_program.c:21:6:USART_voidInit	32	static
+../Src/01-MCAL/06-USART/USART_program.c:68:6:USART_voidSendByte	16	static
+../Src/01-MCAL/06-USART/USART_program.c:106:6:USART_voidSendString	24	static
+../Src/01-MCAL/06-USART/USART_program.c:128:6:USART_u8ReadDataRegister	16	static
+../Src/01-MCAL/06-USART/USART_program.c:141:6:USART_voidReceiveByteBlocking	16	static
+../Src/01-MCAL/06-USART/USART_program.c:171:6:USART_voidReceiveDataNonBlocking	24	static
+../Src/01-MCAL/06-USART/USART_program.c:202:6:USART1_voidSetCallBack	16	static
+../Src/01-MCAL/06-USART/USART_program.c:207:6:USART2_voidSetCallBack	16	static
+../Src/01-MCAL/06-USART/USART_program.c:212:6:USART6_voidSetCallBack	16	static
+../Src/01-MCAL/06-USART/USART_program.c:217:6:USART1_IRQHandler	8	static
+../Src/01-MCAL/06-USART/USART_program.c:223:6:USART2_IRQHandler	8	static
+../Src/01-MCAL/06-USART/USART_program.c:229:6:USART6_IRQHandler	8	static
